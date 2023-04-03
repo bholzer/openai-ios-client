@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct OpenAI_PlaygroundApp: App {
+    @StateObject var settingsStore = SettingsStore()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(settingsStore)
         }
     }
 }
