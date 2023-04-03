@@ -12,12 +12,6 @@ struct TextMode {
     let destination: AnyView
 }
 
-import SwiftUI
-
-import SwiftUI
-
-import SwiftUI
-
 struct TextModeView: View {
     var body: some View {
         NavigationStack {
